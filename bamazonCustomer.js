@@ -118,7 +118,7 @@ function buy(product, quantity) {
                 message: "Would you like to purchase more?",
                 default: false,
             }]).then(function (response) {
-                console.log(response.replay);
+                // console.log(response.replay);
                 if (response.replay === true) {
                     displayStock();
                 } else {
